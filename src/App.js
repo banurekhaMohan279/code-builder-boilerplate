@@ -1,10 +1,10 @@
-import './App.css';
+import {Link} from 'react-router-dom';
 
 function App() {
   return (
     <div className = "page-center">
-      <h1> LeetCode </h1>
-      <a href = "leetcode/1-flattenArray.html" className = "next-btn"> &rarr; </a>
+      <h1> Your Heading </h1>
+      <Link to = '/template'className = "next-btn"> &rarr; </Link>
     </div>
   );
 }

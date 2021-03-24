@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html, body{
+  height:100%;
+}
+/***Common styles***/
+body, #root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #424242;
+  text-align: center;
+}
+
+#root{
+  height:100%;
+  width:100%;
+}
+
+.page-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff9c4;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  animation: 1s slide-in;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.col-1,.col-2{
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.col-1{
+  background-color: #fff9c4;
+  overflow: scroll;
+}
+
+.col-2{ /* Reference code*/
+  background-color: #e0dcb4;
+  padding: 0 3%;
+  overflow: scroll;
+}
+
+.col-1:before{
+  content: 'Working Model/ Question';
+}
+
+.col-2:before{
+  content: 'Answer/ Notes';
+}
+
+.col-1:before, .col-2:before{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  color: rgb(187, 182, 182, 0.8);
+}
+
+.code-snippet-html{
+  white-space: break-spaces;
+  font-size: larger;
+  color: firebrick;
+}
+
+.code-snippet-js{
+  white-space: break-spaces;
+}
+
+.code-snippet-ques{
+  color: #a97563;
+  white-space: break-spaces;
+}
+
+.code-snippet-tip{
+  white-space: break-spaces;
+  background: yellow;
+}
+
+.code-snippet-ques:before{
+  content: 'Question:';
+  font-size: larger;
+  color: blue;
+}
+
+.next-btn, .prev-btn{
+  position: absolute;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.next-btn {
+  right: 0;
+  top: 50%;
+}
+
+.prev-btn{
+  left: 0;
+  top: 50%;
+}
+
+@keyframes slide-in{
+    0%{
+      opacity: 0.3;
+    },
+    100%{
+      opacity: 1;
+    }
+}
+
+/**5-throttle.html**/
+.scrollDiv{
+  height: 500px;
+  background:blue;
+  overflow:scroll;
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Code-Builder/static/css/main.d739f75c.chunk.css",
+    "main.js": "/Code-Builder/static/js/main.6c34d790.chunk.js",
+    "main.js.map": "/Code-Builder/static/js/main.6c34d790.chunk.js.map",
+    "runtime-main.js": "/Code-Builder/static/js/runtime-main.85402a27.js",
+    "runtime-main.js.map": "/Code-Builder/static/js/runtime-main.85402a27.js.map",
+    "static/js/2.f2b5771f.chunk.js": "/Code-Builder/static/js/2.f2b5771f.chunk.js",
+    "static/js/2.f2b5771f.chunk.js.map": "/Code-Builder/static/js/2.f2b5771f.chunk.js.map",
+    "static/js/3.2dcc194a.chunk.js": "/Code-Builder/static/js/3.2dcc194a.chunk.js",
+    "static/js/3.2dcc194a.chunk.js.map": "/Code-Builder/static/js/3.2dcc194a.chunk.js.map",
+    "index.html": "/Code-Builder/index.html",
+    "static/css/main.d739f75c.chunk.css.map": "/Code-Builder/static/css/main.d739f75c.chunk.css.map",
+    "static/js/2.f2b5771f.chunk.js.LICENSE.txt": "/Code-Builder/static/js/2.f2b5771f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85402a27.js",
+    "static/js/2.f2b5771f.chunk.js",
+    "static/css/main.d739f75c.chunk.css",
+    "static/js/main.6c34d790.chunk.js"
+  ]
+}

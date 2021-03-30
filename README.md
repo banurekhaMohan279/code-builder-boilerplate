@@ -1,3 +1,7 @@
+# Code Builder
+
+A code builder repo template for easy code revision by adding code snippets/ tips and images.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

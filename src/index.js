@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Route exact path = '/'> <App/> </Route>
+      <Route exact path = '/code-builder-boilerplate'> <App/> </Route>
       <Route path = '/Template'> <Template/> </Route>
     </BrowserRouter>
   </React.StrictMode>,

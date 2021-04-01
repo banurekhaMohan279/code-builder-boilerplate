@@ -111,10 +111,3 @@ body, #root{
       opacity: 1;
     }
 }
-
-/**5-throttle.html**/
-.scrollDiv{
-  height: 500px;
-  background:blue;
-  overflow:scroll;
-}
